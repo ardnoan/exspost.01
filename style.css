@@ -47,14 +47,53 @@ body {
     clip-path: circle(22% at center);
     transition: 1s;
 }
+.card.ketua.wali.xii .circle {
+    position: absolute;
+    top: 0;
+    left: -40%;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.card.ketua.wali.xii .circle::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: red;
+    clip-path: circle(22% at center);
+    transition: 1s;
+}
 .card:hover .circle::before {
     background: blue;
     clip-path: circle(100% at center);
+}
+
+.card:hover.ketua.wali.xii .circle::before {
+    background: orange;
+    clip-path: circle(100% at right);
 }
 .card img {
     position: absolute;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+.card.ketua.wali.xii img {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+.card.ketua.wali.x img {
+    position: absolute;
+    top: 50%;
+    left: 90%;
     transform: translate(-50%, -50%);
     pointer-events: none;
 }
@@ -72,6 +111,12 @@ body {
     width: 40%;
     text-align: center;
     padding: 25px 10px 10px 10px;
+}
+.card.ketua.wali.xii .content .content-judul {
+    width: 100%;
+    text-align: center;
+    margin-right: 59px;
+    margin-top: -5px;
 }
 .card .content .content-judul h6,
 .card .content .content-isi p {
@@ -537,8 +582,16 @@ section#about {
     .card.ketua {
         transition: .5s;
     }
+    .card.ketua.wali {
+        margin-bottom: 100px;
+    }
     .card.ketua .circle {
         transition: .5s;
+    }
+    
+    .card.ketua.wali.x .circle {
+        transition: .5s;
+        margin-left: 175px;
     }
     .card.ketua:hover .circle {
         box-shadow: 2px 2px #333;
@@ -548,6 +601,16 @@ section#about {
         text-shadow: 1px 2px #111;
         font-size: 2em;
         margin-top: -15px;
+        text-transform: uppercase;
+    }
+    .card.ketua.wali.x .content-judul {
+        width: 100%;
+    }
+    .card.ketua:hover.wali.x .content-judul h6 {
+        text-shadow: 1px 2px #111;
+        font-size: 2em;
+        margin-top: -15px;
+        margin-left: 200px;
         text-transform: uppercase;
     }
     .card.ketua .circle::before {
