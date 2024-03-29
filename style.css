@@ -196,6 +196,14 @@ body {
 .card.waketu.sekretaris:hover .content {
     margin-top: 90px;
 }
+.card.waketu.sekretaris1:hover img {
+    top: 30%;
+    width: 50%;
+}
+.card.waketu.sekretaris1:hover .content {
+    margin-top: 130px;
+}
+
 
 
 /* Projek atau stuktur kelas */
@@ -493,7 +501,8 @@ footer {
 footer h1 {
     background-color: rgb(40, 40, 40);
     margin: 0;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 30px;
     color: white;
 }
 
@@ -573,8 +582,12 @@ section#about {
     #project {
         margin-top: 15%;
     }
+    footer h1 {
+        padding-top: 10px;
+    }
     .str-class h3 {
         font-size: 3em;
+        margin-bottom: 150px;
     }
     .str-class {
         margin: auto;
