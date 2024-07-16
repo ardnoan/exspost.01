@@ -392,7 +392,7 @@ svg.tibalik {
     transition: .5s;
 }
 
-.row.text-center .col:hover img {
+/* .row.text-center .col:hover img {
     filter: drop-shadow(2px 2px 0 blue);
     transition: .5s;
 }
@@ -400,7 +400,7 @@ svg.tibalik {
 .row.text-center .col:hover img {
     border: 1px solid blue;
     transition: .5s;
-}
+} */
 
 .row.text-center .col:hover h6 {
     position: absolute;
