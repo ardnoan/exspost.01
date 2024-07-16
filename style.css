@@ -541,9 +541,9 @@ section#about {
         padding-top: 5px;
     }
 
-    svg.ttTibalik {
+    /* svg.ttTibalik {
         margin-bottom: -25px;
-    }
+    } */
     .jumbotron.jumbotron-fluid h1 span {
         font-size: 2.5em;
     }
