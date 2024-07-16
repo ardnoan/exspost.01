@@ -215,7 +215,7 @@ svg.ttTibalik {
     transform: rotateX(140deg);
     rotate: 180deg;
     width: 100%;
-    margin-bottom: -10px;
+    /* margin-bottom: -10px; */
     filter: drop-shadow(0 -10px 1px #555);
 }
 
