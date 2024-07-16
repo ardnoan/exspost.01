@@ -519,7 +519,7 @@ section#about {
     
 } */
 
-@media screen and (min-width: 678px) {
+@media screen and (max-width: 480px) {
 
     svg.ttTibalik {
         margin-bottom: -20px;
