@@ -518,9 +518,9 @@ section#about {
 
 @media screen and (min-width: 480px) {
 
-    /* svg.ttTibalik {
+    svg.ttTibalik {
         margin-bottom: -20px;
-    } */
+    }
 
     .str-class {
         margin: 30px;
