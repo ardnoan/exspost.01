@@ -402,23 +402,20 @@ svg.tibalik {
     transition: .5s;
 } */
 
-.row.text-center .col:hover h6 {
+/* .row.text-center .col:hover h6 {
     position: absolute;
     width: 80%;
-    /* background-color: lightskyblue; */
     bottom: 0;
-    /* padding: 5px; */
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     padding-bottom: 30px;
     height: 0;
-    /* transition: .5s; */
     font-weight: bolder;
     font-size: 1em;
     color: rgb(0, 157, 255);
     text-shadow: 0 1px 0 #fff, 0 -1px 0 #ddd, 0 0 5px #111;
-}
+} */
 
 /* .container div div:hover {
     box-sizing: border-box;
@@ -519,7 +516,7 @@ section#about {
     
 } */
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
 
     svg.ttTibalik {
         margin-bottom: -20px;
