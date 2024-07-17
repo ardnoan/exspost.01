@@ -222,7 +222,7 @@ svg.ttTibalik {
 svg.tibalik {
     /* position: absolute; */
     transform: rotateX(140deg);
-    margin-top: -10px;
+    /* margin-top: -10px; */
     filter: drop-shadow(0 -10px 1px #555);
 }
 
