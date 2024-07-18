@@ -690,17 +690,17 @@ section#about {
     padding: 30px;
   }
 
-  .row.text-center .col:hover img {
+  .row .col-3:hover img {
     filter: drop-shadow(2px 2px 0 blue);
     transition: 0.5s;
   }
 
-  .row.text-center .col:hover img {
+  .row .col-3:hover img {
     border: 1px solid blue;
     transition: 0.5s;
   }
 
-  .row.text-center .col:hover h6 {
+  .row .col-3:hover h6 {
     position: absolute;
     width: 80%;
     /* background-color: lightskyblue; */
